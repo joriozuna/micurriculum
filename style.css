@@ -1,0 +1,86 @@
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   margin:0 ;
+   background-color:rgb(223, 239, 241);
+}
+
+header{
+    background-color: rgb(2, 50, 60);
+    text-align: center;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#habilidades ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    /*aquí se define el redondeo de las esquinas del elemento*/
+    margin-right: 10px;
+}
+
+
+main{
+    margin: 5% 20%;
+}
+
+nav{
+    text-align: center;
+    padding:0;
+    margin: 0;  
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+#contacto form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#contacto form input[type="submit"] {
+    background-color:black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color:dimgray;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
